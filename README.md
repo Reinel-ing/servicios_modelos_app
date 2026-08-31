@@ -17,19 +17,29 @@ Aplicación Flutter desarrollada para el laboratorio de la Semana 4 del curso de
 
 ## Estructura del proyecto
 
-lib/main.dart
-lib/theme.dart
-lib/ui/app.dart - Punto de entrada de la app (MultiProvider + MaterialApp)
-lib/providers/device_data_provider.dart - Estado global de sensores y datos del dispositivo
-lib/services/device_service.dart - Acceso a sensores, hardware, conectividad y ubicación
-lib/services/product_service.dart - Servicio de productos (plantilla base del curso)
-lib/models/product.dart - Modelo de producto (plantilla base del curso)
-lib/models/category.dart - Modelo de categoría (plantilla base del curso)
-lib/screens/main_shell.dart - Navegación adaptativa (BottomNavigationBar / NavigationRail)
-lib/screens/home_screen.dart - Panel principal con resumen del dispositivo
-lib/screens/sensors_screen.dart - Detalle de acelerómetro, giroscopio y magnetómetro
-lib/screens/device_screen.dart - Información de hardware, conectividad y ubicación
+- lib/main.dart
 
+- lib/theme.dart
+
+- lib/ui/app.dart — Punto de entrada de la app (MultiProvider + MaterialApp)
+
+- lib/providers/device_data_provider.dart — Estado global de sensores y datos del dispositivo
+
+- lib/services/device_service.dart — Acceso a sensores, hardware, conectividad y ubicación
+
+- lib/services/product_service.dart — Servicio de productos (plantilla base del curso)
+
+- lib/models/product.dart — Modelo de producto (plantilla base del curso)
+
+- lib/models/category.dart — Modelo de categoría (plantilla base del curso)
+
+- lib/screens/main_shell.dart — Navegación adaptativa (BottomNavigationBar / NavigationRail)
+
+- lib/screens/home_screen.dart — Panel principal con resumen del dispositivo
+
+- lib/screens/sensors_screen.dart — Detalle de acelerómetro, giroscopio y magnetómetro
+
+- lib/screens/device_screen.dart — Información de hardware, conectividad y ubicación
 ## Requisitos
 
 Flutter SDK (canal estable). Se recomienda un emulador o dispositivo Android/iOS conectado, ya que los sensores de movimiento y la ubicación GPS no funcionan correctamente en navegador web.
